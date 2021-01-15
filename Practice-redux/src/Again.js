@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 const Again = (props) => {
     return (
         <div>
+           
              <button onClick={()=>props.OnDecrementCounter(props.count)}> Decrement: {props.count}  </button>
         </div>
     )
